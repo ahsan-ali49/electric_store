@@ -1,0 +1,88 @@
+.background-color {
+    background-color: white;
+}
+
+.logo-img {
+    max-width: 155px;
+    margin-left: 60px;
+}
+
+.menu-item {
+    font-size: 20px;
+    color: #164158;
+    margin-right: 1rem;
+}
+
+.hero-section {
+    background-color: #28C7FA;
+    height: 700px;
+}
+
+.welcome-heading {
+    color: #164158;
+    font-size: 40px;
+    margin-left: 104px;
+    margin-top: 6rem !important;
+}
+
+.welcome-message {
+    color: white;
+    font-size: 40px;
+    margin-left: 104px;
+    margin-top: 6rem !important;
+}
+
+.right-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.show-more-btn {
+    width: 280px;
+    height: 83;
+    background-color: #164158;
+    color: white;
+    border-radius: 20px;
+    font-size: 40px;
+    margin-top: 6rem !important;
+}
+
+.btn-more {
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    padding-right: 2rem;
+}
+
+.hero-img {
+    height: 300px;
+}
+
+.category-section {
+    background-color: #15A8FB;
+    height: 700px;
+}
+
+.cat-img {
+    width: 400px;
+    height: 266px;
+    border-radius: 20px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.cat-btn {
+    width: 280px;
+    height: 83;
+    background-color: #164158;
+    color: white;
+    border-radius: 20px;
+    font-size: 40px;
+    margin-top: 2rem !important;
+}
