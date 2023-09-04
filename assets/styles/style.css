@@ -64,7 +64,8 @@
     height: 700px;
 }
 
-.cat-img {
+.cat-img,
+.prod-img {
     width: 400px;
     height: 266px;
     border-radius: 20px;
@@ -77,6 +78,15 @@
     align-items: center;
 }
 
+.product,
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+}
+
 .cat-btn {
     width: 280px;
     height: 83;
@@ -85,4 +95,111 @@
     border-radius: 20px;
     font-size: 40px;
     margin-top: 2rem !important;
+}
+
+.product-section,
+.about-section {
+    background-color: #28C7FA;
+    height: 700px;
+}
+
+.product-1 {
+    border-right: 2px solid #164158;
+}
+
+.prod-name,
+.review {
+    align-self: flex-start;
+    margin-left: 19rem;
+}
+
+.testimonial-section {
+    background-color: #15A8FB;
+    height: 700px;
+}
+
+.contact-section {
+    background-color: #15A8FB;
+    /* height: 700px; */
+}
+
+.review {
+    max-width: 340px;
+}
+
+.message {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.person-img {
+    width: 300px;
+    height: 257px;
+    border-radius: 150px;
+}
+
+.team-passage {
+    color: #164158;
+}
+
+.about {
+    padding-left: 12rem;
+}
+
+.team-img {
+    width: 610px;
+    border-radius: 20px;
+}
+
+.form1,
+.form2,
+.form3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.form2 {
+    margin-bottom: 5%;
+}
+
+.field {
+    width: 330px;
+    height: 88px;
+    border-radius: 20px;
+}
+
+.field1 {
+    width: 1040px;
+    height: 216px;
+    border-radius: 20px;
+
+}
+
+.submit-btn {
+    width: 380px;
+    height: 96px;
+    color: white;
+    background-color: #164158;
+    border-radius: 20px;
+}
+
+.footer-section {
+    background-color: #164158;
+    height: 150px;
+    color: white;
+    padding-left: 22%;
+    padding-top: 3%;
+}
+
+.copyright {
+    float: left;
+}
+
+.svgs {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-right: 10%;
 }
